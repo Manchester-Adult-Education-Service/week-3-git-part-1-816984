@@ -13,7 +13,9 @@
 # - Asks the user for their age
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
-
+name = input("what is your name? ")
+age = int(input("how old are you? "))
+print(f"HEllo {name}, next year your will be {age + 1}")
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
