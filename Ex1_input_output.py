@@ -52,7 +52,9 @@ print(f"HEllo {name}, next year your will be {age + 1}")
 #   and you really like pizza!"
 #
 # - Make sure you use variables for all inputs and format the output clearly.
-#
+favourite_colour = input("What is your favourite colour? ")
+favourite_food = input("What is your favourite food? ")
+print(f"Hello {name}, next year you will be {age}. Your favourite food is {favourite_food} and your favourite colour is {favourite_colour.capitalize()} ")
 # Once complete, save your work with another commit:
 # git add Ex1_input_output.py
 # git commit -m "Completed extension challenge"
